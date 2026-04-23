@@ -1,0 +1,56 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d chrome
+
+## exception
+
+DartDevelopmentServiceException: DartDevelopmentServiceException: Failed to start Dart Development Service
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.38.2, on Microsoft Windows [Version 10.0.26200.8246], locale en-US) [668ms]
+    [32m•[39m Flutter version 3.38.2 on channel stable at C:\src\Flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision f5a8537f90 (5 months ago), 2025-11-18 09:27:21 -0500
+    [32m•[39m Engine revision b5990e5ccc
+    [32m•[39m Dart version 3.10.0
+    [32m•[39m DevTools version 2.51.1
+    [32m•[39m Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop,
+      enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file,
+      enable-lldb-debugging
+
+[32m[✓][39m Windows Version (11 Pro 64-bit, 25H2, 2009) [1,951ms]
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version 36.1.0) [947ms]
+    [32m•[39m Android SDK at C:\Users\samno\AppData\Local\Android\sdk
+    [32m•[39m Emulator version 36.2.12.0 (build_id 14214601) (CL:N/A)
+    [32m•[39m Platform android-36, build-tools 36.1.0
+    [31m✗[39m No Java Development Kit (JDK) found; You must have the environment variable JAVA_HOME set and the
+      java binary in your PATH. You can download the JDK from
+      https://www.oracle.com/technetwork/java/javase/downloads/.
+
+[32m[✓][39m Chrome - develop for the web [199ms]
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[32m[✓][39m Visual Studio - develop Windows apps (Visual Studio Community 2026 18.4.4) [197ms]
+    [32m•[39m Visual Studio at C:\Program Files\Microsoft Visual Studio\18\Community
+    [32m•[39m Visual Studio Community 2026 version 18.4.11702.344
+    [32m•[39m Windows 10 SDK version 10.0.26100.0
+
+[32m[✓][39m Connected device (3 available) [223ms]
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26200.8246]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 147.0.7727.56
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 147.0.3912.60
+
+[32m[✓][39m Network resources [1,456ms]
+    [32m•[39m All expected network resources are available.
+
+[33m![39m Doctor found issues in 1 category.
+```
